@@ -8,19 +8,42 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-6">
-        <div id="chartContainerFlight" style="height: 350px; width: 100%;"></div>
-        <h3> Duration of flight to price sensitivity </h3>
-        <h5><i> If 1 is, "I STRONGLY prefer a much shorter flight" and 5 is, "I STRONGLY prefer to save as much money as possible on a flight," on a scale of 1-5, what are your consumer preferences? </i></h5>
+      <div class="col-md-6" id="flights">
+        <div class ="panel panel-info">
+        <div class="panel-heading"><h4 class="text-center"> Price vs. Flight Duration </h4></div>
+        <div class="panel-body">
+          <div id="chartContainerFlight" style="height: 300px; width: 100%;"></div>
+          <h4> Duration of flight to price sensitivity </h4>
+          <i> If 1 is, "I STRONGLY prefer a much shorter flight" and 5 is, "I STRONGLY prefer to save as much money as possible on a flight," on a scale of 1-5, what are your consumer preferences? </i>
         <input type="range" min="1" max="5" id="flighttimemoneyselector">
-        <h5> Your preference: <div id="flighttimemoney">3</div> </h5>
+        <h5><div id="flightPreference">Your preference: 3</div></h5>
+        </div></div>
       </div>
       <div class="col-md-6">
-        <div id="chartContainerTrip" style="height: 350px; width: 100%;"></div>
-        <h3> Duration of trip to price sensitivity </h3>
-        <h5><i> If 1 is, "I STRONGLY prefer a much longer vacation" and 5 is, "I STRONGLY prefer to save as much money as possible on a flight," on a scale of 1-5, what are your consumer preferences? </i></h5>
+        <div class="panel panel-info">
+        <div class="panel-heading"><h4 class="text-center"> Price vs. Time at Destination </h4></div>
+        <div class="panel-body">
+        <div id="chartContainerTrip" style="height: 300px; width: 100%;"></div>
+        <h4> Duration of trip to price sensitivity </h4>
+        <i> If 1 is, "I STRONGLY prefer a much longer vacation" and 5 is, "I STRONGLY prefer to save as much money as possible on a flight," on a scale of 1-5, what are your consumer preferences? </i>
         <input type="range" min="1" max="5" id="triptimemoneyselector">
-        <h5> Your preference: <div id="triptimemoney">3</div> </h5>
+        <h5><div id="tripPreference"> Your preference: 3</div></h5>
+        </div></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-success">
+          <div class="panel-heading"><h4><p class="text-center">Best Overall Flight for Your Sensitivity </p></h4></div>
+          <div class="panel-body">
+            <div id="bestDeparture"></div>
+            <div id="bestPrice"></div>
+            <div id="bestFlightTime"></div>
+            <div id="bestReturn"></div>
+            <div id="bestAirline"></div>
+            <div id="bestTripDuration"></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
