@@ -44,7 +44,7 @@ var flightChart = new CanvasJS.Chart("chartContainerFlight",
     {
       fillOpacity: .7,
       type: "bubble",
-      toolTipContent: "<span style='\"'color: {color};'\"'><strong>Travel Time:</strong> {x} hours <br/> <strong>Price:</strong> ${y}<br/></span><strong>Departure: </strong> {departure}<br/> <strong>Return: </strong>{return} <br/><strong>Airline: </strong>{airline}<br/> <strong>Z: </strong>{z}", 
+      toolTipContent: "<span style='\"'color: {color};'\"'><strong>Travel Time:</strong> {x} hours <br/> <strong>Price:</strong> ${y}<br/></span><strong>Departure: </strong> {departure}<br/> <strong>Return: </strong>{return} <br/><strong>Airline: </strong>{airline}<br/>", 
       dataPoints: []
     } ]
   });
@@ -84,7 +84,7 @@ var tripChart = new CanvasJS.Chart("chartContainerTrip",
     {
       fillOpacity: .7,
       type: "bubble",
-      toolTipContent: "<span style='\"'color: {color};'\"'><strong>Trip Duration:</strong> {x} days <br/> <strong>Price:</strong> ${y}<br/></span><strong>Departure: </strong> {departure}<br/> <strong>Return: </strong>{return} <br/><strong>Airline: </strong>{airline}<br/> <strong>Z: </strong>{z}",  
+      toolTipContent: "<span style='\"'color: {color};'\"'><strong>Trip Duration:</strong> {x} days <br/> <strong>Price:</strong> ${y}<br/></span><strong>Departure: </strong> {departure}<br/> <strong>Return: </strong>{return} <br/><strong>Airline: </strong>{airline}<br/>",  
       dataPoints: []
     } ]
   });
