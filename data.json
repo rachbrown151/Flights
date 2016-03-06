@@ -1,52 +1,68 @@
 {
   "data": [
     {
-      "x": "31.333",
-      "y": "660.00",
-      "z": "1",
-      "label": "1"
+      "flightTime": "31.333",
+      "price": "660.00",
+      "destinationTime": "6.646",
+      "departure": "Saturday, May 7 JFK-FCO 12:30am-8:40pm, 20h10m",
+      "return": "Sunday, May 15 FCO-JFK 1:10pm-6:20pm, 11h10m",
+      "airline": "Norweigan"
     },
     {
-      "x": "24.5",
-      "y": "698.00",
-      "z": "2",
-      "label": "2"
+      "flightTime": "24.5",
+      "price": "698.00",
+      "destinationTime": "7.031",
+      "departure": "Saturday, May 7 JFK-FCO 5:30pm-10:40am, 11h10m",
+      "return": "Sunday, May 15 FCO-JFK 11:25am-6:45pm, 13h20m",
+      "airline": "Aer Lingus"
     },
     {
-      "x": "18",
-      "y": "957.00",
-      "z": "3",
-      "label": "3"
+      "flightTime": "18",
+      "price": "957.00",
+      "destinationTime": "7.087",
+      "departure": "Saturday, May 7 JFK-FCO 5:15pm-7:35am, 8h20m",
+      "return": "Sunday, May 15 FCO-JFK 9:40am-1:20pm, 9h40m",
+      "airline": "American Airlines"
     },
     {
-      "x": "18.167",
-      "y": "957.00",
-      "z": "4",
-      "label": "4"
+      "flightTime": "18.167",
+      "price": "957.00",
+      "destinationTime": "7.253",
+      "departure": "Saturday, May 7 JFK-FCO 6:05pm-8:40am, 8h35m",
+      "return": "Sunday, May 15 FCO-JFK 2:45pm-6:20pm, 9h35m",
+      "airline": "Alitalia Airlines"
     },
     {
-      "x": "25.667",
-      "y": "878.00",
-      "z": "5",
-      "label": "5"
+      "flightTime": "25.667",
+      "price": "878.00",
+      "destinationTime": "6.885",
+      "departure": "Saturday, May 7 EWR-FCO 5:55pm-10:40am, 10h45m",
+      "return": "Sunday, May 15 FCO-EWR 6:55am-3:50pm, 14h55m",
+      "airline": "Alitalia Airlines"
     },
     {
-      "x": "31.583",
-      "y": "515.00",
-      "z": "6",
-      "label": "6"
+      "flightTime": "31.583",
+      "price": "515.00",
+      "destinationTime": "4.632",
+      "departure": "Sunday, May 8 JFK-FCO 12:30am-10:00pm, 15h30m",
+      "return": "Friday, May 13 FCO-JFK 1:10pm-2:20pm, 16h05m",
+      "airline": "Norwegian Air"
     },
     {
-      "x": "21.083",
-      "y": "801.00",
-      "z": "7",
-      "label": "7"
+      "flightTime": "21.083",
+      "price": "801.00",
+      "destinationTime": "6.965",
+      "departure": "Saturday, May 7 JFK-FCO 5:20pm-10:45am, 11h25m",
+      "return": "Saturday, May 14 FCO-EWR 9:55am-1:35pm, 9hr40m",
+      "airline": "American Airlines"
     },
     {
-      "x": "18.3",
-      "y": "929.00",
-      "z": "8",
-      "label": "8"
+      "flightTime": "18.3",
+      "price": "929.00",
+      "destinationTime": "8.167",
+      "departure": "Friday, May 6 JFK-FCO 8:02pm-10:45am, 8h43m",
+      "return": "Sunday, May 15 FCO-JFK 2:45pm-6:20pm, 9h35m",
+      "airline": "Delta departure, Alitalia return"
     }
   ]
 }
