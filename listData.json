@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "flightTime": "29.333",
+      "price": "690.00",
+      "destinationTime": "6.646",
+      "departure": "May 9 JFK-FCO 12:30am-6:40pm, 19h10m",
+      "return": "May 15 FCO-JFK 1:10pm-6:20pm, 11h10m",
+      "airline": "Norweigan"
+    },
+    {
+      "flightTime": "33.5",
+      "price": "572.00",
+      "destinationTime": "7.031",
+      "departure": "May 6 JFK-FCO 1:30pm-3:40pm, 20h10m",
+      "return": "May 13 FCO-JFK 11:25am-6:45pm, 13h20m",
+      "airline": "Aer Lingus"
+    },
+    {
+      "flightTime": "17.5",
+      "price": "944.00",
+      "destinationTime": "7.087",
+      "departure": "May 9 JFK-FCO 5:45pm-7:35am, 7h50m",
+      "return": "May 17 FCO-JFK 9:40am-1:20pm, 9h40m",
+      "airline": "American Airlines"
+    },
+    {
+      "flightTime": "18",
+      "price": "952.00",
+      "destinationTime": "7.253",
+      "departure": "May 9 JFK-FCO 6:25pm-8:40am, 8h15m",
+      "return": "May 17 FCO-JFK 2:45pm-6:20pm, 9h35m",
+      "airline": "Alitalia Airlines"
+    },
+    {
+      "flightTime": "25.667",
+      "price": "878.00",
+      "destinationTime": "6.885",
+      "departure": "May 8 EWR-FCO 5:55pm-10:40am, 10h45m",
+      "return": "May 16 FCO-EWR 6:55am-3:50pm, 14h55m",
+      "airline": "Alitalia Airlines"
+    },
+    {
+      "flightTime": "31.583",
+      "price": "515.00",
+      "destinationTime": "4.632",
+      "departure": "May 8 JFK-FCO 12:30am-10:00pm, 15h30m",
+      "return": "May 16 FCO-JFK 1:10pm-2:20pm, 16h05m",
+      "airline": "Norwegian Air"
+    },
+    {
+      "flightTime": "21.083",
+      "price": "801.00",
+      "destinationTime": "6.965",
+      "departure": "May 9 JFK-FCO 5:20pm-10:45am, 11h25m",
+      "return": "May 16 FCO-EWR 9:55am-1:35pm, 9hr40m",
+      "airline": "American Airlines"
+    },
+    {
+      "flightTime": "19.5",
+      "price": "929.00",
+      "destinationTime": "8.167",
+      "departure": "May 9 JFK-FCO 6:50pm-10:45am, 9h55m",
+      "return": "May 16 FCO-JFK 2:45pm-6:20pm, 9h35m",
+      "airline": "Delta departure, Alitalia return"
+    }
+  ]
+}
